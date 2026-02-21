@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa | grep ":$" | wc -l
+find . -mindepth 1 -type d -printf x | wc -c
