@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l -lt --sort=time | head -10
+ls -l -tp | grep -v '/$' | head -10
